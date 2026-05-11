@@ -12,6 +12,7 @@ body {
     padding: 24px;
     background: #ffffff;
     border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(17, 24, 39, 0.08);
 }
 .butt{
     margin-top: 14px;
@@ -67,4 +68,55 @@ h2 {
 .UI {
     width: 100%;
     border-radius: 8px;
+}
+
+.screenshots {
+    margin-top: 22px;
+    text-align: left;
+}
+
+.screenshots h3 {
+    margin: 0 0 12px;
+    font-size: 24px;
+    color: #111827;
+}
+
+.shot-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.shot-card {
+    margin: 0;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shot {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.shot-card figcaption {
+    padding: 10px 12px;
+    font-weight: 600;
+    color: #374151;
+}
+
+@media (max-width: 640px) {
+    .container {
+        margin: 14px;
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
 }
